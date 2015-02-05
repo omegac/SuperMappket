@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/carItemIV"
+        android:focusableInTouchMode="false"
+        android:contentDescription="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/carNombreProd"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:hint="@string/nombreProducto"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/carCantProd"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:inputType="numberDecimal"
+        android:text="(x1)"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:gravity="center|right"
+        android:layout_weight="0.75" />
+
+    <ImageButton
+        android:id="@+id/btnRemovProd"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@android:drawable/ic_delete"
+        android:nestedScrollingEnabled="false"
+        android:onClick="removProdOnClickHandler" />
+
+</LinearLayout><!-- From: file:/C:/Users/go/AndroidStudioProjects/SuperMappket/app/src/main/res/layout/carrito_item.xml -->

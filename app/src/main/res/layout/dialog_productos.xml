@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/precio_producto_dialog_productos"
+        android:id="@+id/precioActualTV"
+        android:layout_below="@+id/numberPicker1"
+        android:layout_alignLeft="@+id/numberPicker1"
+        android:layout_alignStart="@+id/numberPicker1"
+        android:layout_marginLeft="-20dp" />
+</RelativeLayout>

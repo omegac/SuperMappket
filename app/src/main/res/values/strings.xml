@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Super Mappket</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="textoBienvenida">Inicie sesión para acceder a la fantástica aplicación Super Mappket</string>
+    <string name="textoIngresar">Ingrese seguro al sistema usando este botón</string>
+    <string name="usuarioHint">usuario</string>
+    <string name="passwordHint">password</string>
+    <string name="listaCategoria">Nombre Lista</string>
+    <string name="title_activity_categorias">CategoriasActivity</string>
+    <string name="title_activity_carrito">Mi Carrito</string>
+    <string name="btnSaldo">Saldo</string>
+    <string name="nombreProducto">Nombre Producto</string>
+    <string name="numeroProductos">1</string>
+    <string name="textCarrito">Mi Carrito</string>
+    <string name="btnComprarText">Comprar</string>
+    <string name="totalTV">Precio total: $</string>
+    <string name="carVacio">No hay productos en el carrito</string>
+    <string name="titulo_dialog_saldo">Saldo</string>
+    <string name="aceptar_dialog_saldo">Aceptar</string>
+    <string name="titulo_dialog_lista">Eliminar</string>
+    <string name="aceptar_dialog_lista">Eliminar</string>
+    <string name="titulo_dialog_carrito">Remover</string>
+    <string name="aceptar_dialog_carrito">Remover</string>
+    <string name="cancelar_dialog">Cancelar</string>
+    <string name="precio_producto_dialog_productos">Precio: $</string>
+    <string name="title_activity_lista">Mis listas</string>
+    <string name="textListasTV">Mis listas</string>
+    <string name="btnCrearListText">Crear lista</string>
+    <string name="listasVacias">No tiene listas creadas</string>
+    <string name="nombreLista">Nombre Lista</string> />
+    />
+
+</resources>

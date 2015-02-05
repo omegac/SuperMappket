@@ -1,0 +1,5 @@
+C:\Users\go\AndroidStudioProjects\SuperMappket\app\build\intermediates\classes\debug
+C:\Users\go\AndroidStudioProjects\SuperMappket\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-509402f166e96dfc0d4b83da889c47ecfc359164.jar
+C:\Users\go\AndroidStudioProjects\SuperMappket\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e62fcd25cd17523e96071902b5c9a572ef1be47e.jar
+C:\Users\go\AndroidStudioProjects\SuperMappket\app\build\intermediates\pre-dexed\debug\classes-59763957d2ff0caea983df1a4ed49ff2af59cd1b.jar
+C:\Users\go\AndroidStudioProjects\SuperMappket\app\build\intermediates\pre-dexed\debug\classes-5c585f7f95190b134637f0c66feae34727996344.jar

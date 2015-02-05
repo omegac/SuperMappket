@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <TextView
+        android:id="@+id/bienvenidaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/bienvenida"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mensajeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/textoBienvenida"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="@string/usuarioHint"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" >
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="@string/passwordHint"
+        android:inputType="textPassword"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/textoBoton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textoIngresar"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/btnIngresar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boton_ingresara" />
+
+    </LinearLayout>
+
+</LinearLayout>

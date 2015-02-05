@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity"
+    android:background="#009999">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/carVacio"
+        android:id="@+id/carVacioTV"
+        android:layout_alignTop="@+id/miCarritoLV"
+        android:layout_alignLeft="@+id/comprarBTN"
+        android:layout_alignStart="@+id/totalTV"
+        android:textColor="#ffb0b0b0"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/comprarBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnComprarText"
+        android:textColor="#fffffafe"
+        android:background="#ffff8400"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/totalTV"
+        android:id="@+id/totalTV"
+        android:layout_above="@+id/comprarBTN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <ListView
+        android:id="@+id/miCarritoLV"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:listitem="@layout/carrito_item"
+        android:layout_above="@id/totalTV">
+    </ListView>
+</RelativeLayout>

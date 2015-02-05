@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/nombreListaTV"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:hint="@string/nombreLista"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/btnRemovList"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@android:drawable/ic_menu_delete"
+        android:nestedScrollingEnabled="false"
+        android:onClick="removListOnClickHandler" />
+
+</LinearLayout>

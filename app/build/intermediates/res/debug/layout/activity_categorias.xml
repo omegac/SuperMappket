@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.edu.udea.supermappket.activity.CategoriasActivity"
+    android:background="#009999">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:baselineAligned="false">
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:queryHint="Buscar producto"
+            android:textSize="10sp"
+            android:id="@+id/buscarSV"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name ="co.com.edu.udea.supermappket.activity.FragmentAcciones"
+        android:id="@+id/fragmentCats"
+        tools:layout="@layout/fragment_acciones"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoriasELV"
+        android:headerDividersEnabled="false"
+        android:layout_below="@id/linearLayout"
+        android:layout_above="@id/fragmentCats"/>
+</RelativeLayout>
+<!-- From: file:/C:/Users/go/AndroidStudioProjects/SuperMappket/app/src/main/res/layout/activity_categorias.xml -->
